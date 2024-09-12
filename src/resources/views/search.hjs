@@ -1,0 +1,19 @@
+<div class="mt-4">
+    <form method="post" action>
+        <div class="form-group">
+            <label for="search-input">My Key</label>
+            <input type="text" name="q" class="form-control" id="search-input"
+                placeholder="Enter Search...">
+        </div>
+        <div class="form-group">
+            <label for="gender-input">My Key</label>
+            <select name="gender" class="form-control"
+                id="gender-input">
+                <option value>1</option>
+                <option value="male">2</option>
+                <option value="female">3</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+</div>
